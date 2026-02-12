@@ -1,0 +1,787 @@
+{
+  "category": "PSYCHIC_PHENOMENA",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/psychic-phenomena",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "psychic-phenomena",
+    "name": "Psychic Phenomena",
+    "aliases": [
+      {
+        "name": "Psi Phenomena",
+        "region": "Global",
+        "meaning": "Abbreviated scientific term"
+      },
+      {
+        "name": "ESP",
+        "region": "Global",
+        "meaning": "Extrasensory Perception"
+      },
+      {
+        "name": "Parapsychological Phenomena",
+        "region": "Global",
+        "meaning": "Academic terminology"
+      },
+      {
+        "name": "Sixth Sense",
+        "region": "Global",
+        "meaning": "Popular colloquialism"
+      },
+      {
+        "name": "Paranormal Cognition",
+        "region": "Global",
+        "meaning": "Cognitive science terminology"
+      }
+    ],
+    "category": "PSYCHIC_PHENOMENA",
+    "subcategory": "Mental Abilities",
+    "tags": [
+      "mental-abilities",
+      "consciousness",
+      "telepathy",
+      "clairvoyance",
+      "precognition",
+      "psychokinesis",
+      "remote-viewing",
+      "esp",
+      "parapsychology",
+      "global"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "Mental abilities and perceptions beyond normal sensory channels, including telepathy, clairvoyance, precognition, psychokinesis, and remote viewing. Studied scientifically through parapsychology while remaining controversial within mainstream science.",
+      "full": "Psychic phenomena encompass a range of purported mental abilities that operate beyond the normal sensory channels and known physical laws. These include extrasensory perception (ESP) such as telepathy, clairvoyance, and precognition, as well as psychokinesis (mind-over-matter effects). While reported across all cultures and time periods, psychic phenomena remain controversial. Parapsychology emerged as a scientific discipline to study these effects, with notable research programs at Duke University, Stanford Research Institute, and various government agencies including the CIA's Stargate Project. Despite thousands of experiments, debates continue regarding replicability, methodology, and theoretical frameworks. The field encompasses famous cases like Uri Geller's alleged metal-bending, Edgar Cayce's trance readings, and Ingo Swann's remote viewing protocols."
+    },
+    "etymology": {
+      "origin": "The term 'psychic' derives from the Greek 'psychikos' (of the soul/mind) and 'psychē' (breath, spirit, soul). 'Parapsychology' was coined by Max Dessoir in 1889.",
+      "meaning": "Relating to the psyche or mind; phenomena beyond normal psychological processes",
+      "first_use": "1872 (as 'psychic force'), 1889 (parapsychology)"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "PSYCHIC_PHENOMENA",
+      "type": "Mental/Consciousness",
+      "subtype": "Multiple modalities",
+      "variant": "Global/Universal"
+    },
+    "related_phenomena": [
+      {
+        "id": "jinn",
+        "name": "Jinn",
+        "relationship": "related",
+        "description": "Supernatural beings sometimes associated with psychic influence"
+      },
+      {
+        "id": "ghosts",
+        "name": "Ghosts",
+        "relationship": "related",
+        "description": "Often perceived through claimed psychic mediumship"
+      },
+      {
+        "id": "time-slips",
+        "name": "Time Slips",
+        "relationship": "related",
+        "description": "May involve precognitive or retrocognitive elements"
+      },
+      {
+        "id": "synchronicity",
+        "name": "Synchronicity",
+        "relationship": "related",
+        "description": "Meaningful coincidences potentially linked to psi effects"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "types": [
+      {
+        "type": "Telepathy",
+        "description": "Direct mind-to-mind communication without sensory channels",
+        "subcategories": [
+          "Thought transference",
+          "Mental impression",
+          "Emotional telepathy"
+        ],
+        "frequency": "most_common",
+        "evidence_level": "experimental"
+      },
+      {
+        "type": "Clairvoyance",
+        "description": "Knowledge of distant or hidden objects without normal sensory input",
+        "subcategories": [
+          "Remote viewing",
+          "Second sight",
+          "Scrying"
+        ],
+        "frequency": "common",
+        "evidence_level": "experimental"
+      },
+      {
+        "type": "Precognition",
+        "description": "Knowledge of future events before they occur",
+        "subcategories": [
+          "Prophetic dreams",
+          "Premonitions",
+          "Future-telling"
+        ],
+        "frequency": "common",
+        "evidence_level": "experimental"
+      },
+      {
+        "type": "Psychokinesis",
+        "description": "Influence of physical systems through mental intention alone",
+        "subcategories": [
+          "Telekinesis",
+          "Spoon bending",
+          "Mind-matter interaction"
+        ],
+        "frequency": "rare",
+        "evidence_level": "disputed"
+      },
+      {
+        "type": "Mediumship",
+        "description": "Communication with deceased individuals or spirits",
+        "subcategories": [
+          "Mental mediumship",
+          "Physical mediumship",
+          "Channeling"
+        ],
+        "frequency": "occasional",
+        "evidence_level": "reported"
+      },
+      {
+        "type": "Remote Viewing",
+        "description": "Structured protocol for obtaining information about distant targets",
+        "subcategories": [
+          "Coordinate remote viewing",
+          "Extended remote viewing",
+          "Associative remote viewing"
+        ],
+        "frequency": "occasional",
+        "evidence_level": "experimental"
+      },
+      {
+        "type": "Retrocognition",
+        "description": "Knowledge of past events without normal information sources",
+        "subcategories": [
+          "Psychometry",
+          "Past-life recall",
+          "Historical visions"
+        ],
+        "frequency": "rare",
+        "evidence_level": "anecdotal"
+      }
+    ],
+    "manifestations": {
+      "experiential": [
+        "Spontaneous impressions or visions",
+        "Dreams with later verification",
+        "Gut feelings or intuitions",
+        "Sensing presence of others",
+        "Knowing who is calling before answering"
+      ],
+      "experimental": [
+        "Card guessing above chance",
+        "Ganzfeld hits",
+        "Remote viewing descriptions",
+        "REG/RNG deviations",
+        "Presentiment responses"
+      ],
+      "physical": [
+        "Object movement (claimed)",
+        "Electronic anomalies",
+        "Temperature changes",
+        "Physical sensations (tingling, pressure)"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Psychic phenomena are reported globally across all cultures, time periods, and demographics. No geographic clustering; represents universal human experience or belief system.",
+      "continents": ["All"],
+      "countries": ["Global"],
+      "regions": ["Universal"]
+    },
+    "research_centers": [
+      {
+        "name": "Rhine Research Center",
+        "location": {
+          "description": "Durham, North Carolina",
+          "country": "United States",
+          "region": "North Carolina",
+          "coordinates": {
+            "latitude": 36.0026,
+            "longitude": -78.9382
+          }
+        },
+        "focus": "ESP and psychokinesis research",
+        "period": "1935-present",
+        "notes": "Founded by J.B. Rhine; longest continuous parapsychology research institution"
+      },
+      {
+        "name": "Stanford Research Institute (SRI)",
+        "location": {
+          "description": "Menlo Park, California",
+          "country": "United States",
+          "region": "California",
+          "coordinates": {
+            "latitude": 37.4536,
+            "longitude": -122.1840
+          }
+        },
+        "focus": "Remote viewing research",
+        "period": "1972-1995",
+        "notes": "Conducted classified remote viewing program for CIA and DIA"
+      },
+      {
+        "name": "Princeton Engineering Anomalies Research (PEAR)",
+        "location": {
+          "description": "Princeton University, New Jersey",
+          "country": "United States",
+          "region": "New Jersey",
+          "coordinates": {
+            "latitude": 40.3431,
+            "longitude": -74.6551
+          }
+        },
+        "focus": "Human-machine interactions, consciousness effects",
+        "period": "1979-2007",
+        "notes": "28-year program studying consciousness and random systems"
+      },
+      {
+        "name": "Koestler Parapsychology Unit",
+        "location": {
+          "description": "University of Edinburgh",
+          "country": "United Kingdom",
+          "region": "Scotland",
+          "coordinates": {
+            "latitude": 55.9445,
+            "longitude": -3.1892
+          }
+        },
+        "focus": "Experimental parapsychology",
+        "period": "1985-present",
+        "notes": "Academic research unit within psychology department"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "Ancient",
+        "circa": true,
+        "source": "Oracle traditions, shamanic practices, religious texts"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "1882-1930s",
+          "description": "Founding of SPR, early psychical research, spiritualism movement"
+        },
+        {
+          "period": "1930s-1960s",
+          "description": "Rhine's ESP research, scientific parapsychology establishment"
+        },
+        {
+          "period": "1970s-1990s",
+          "description": "Government remote viewing programs, Ganzfeld experiments"
+        },
+        {
+          "period": "2000s-present",
+          "description": "Consciousness studies, presentiment research, replication debates"
+        }
+      ]
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Psychic abilities appear in ancient records worldwide: Greek oracles, Vedic siddhis, shamanic traditions, biblical prophecy, Chinese divination. Every major culture has traditions of seers, prophets, and individuals with special mental abilities.",
+      "earliest_accounts": "Ancient oracles (Delphi ~1400 BCE), biblical prophets, shamanic traditions dating to prehistoric times",
+      "folklore_connections": "Connected to divination practices, mystical traditions, religious visions, and folk magic across all cultures"
+    },
+    "timeline": [
+      {
+        "date": "1882",
+        "event": "Society for Psychical Research (SPR) founded",
+        "significance": "First scientific organization dedicated to studying paranormal phenomena",
+        "source": "SPR archives"
+      },
+      {
+        "date": "1930",
+        "event": "J.B. Rhine begins ESP research at Duke University",
+        "significance": "Established experimental parapsychology with card-guessing tests",
+        "source": "Rhine, J.B. (1934). Extra-Sensory Perception"
+      },
+      {
+        "date": "1952",
+        "event": "Eileen Garrett studies at Parapsychology Foundation",
+        "significance": "Controlled testing of famous medium under laboratory conditions",
+        "source": "Parapsychology Foundation records"
+      },
+      {
+        "date": "1972",
+        "event": "CIA initiates Stargate Project at SRI",
+        "significance": "Government-funded remote viewing research program begins",
+        "source": "Declassified CIA documents (1995)"
+      },
+      {
+        "date": "1974",
+        "event": "Ingo Swann demonstrates remote viewing at SRI",
+        "significance": "Development of coordinate remote viewing protocols",
+        "source": "Puthoff & Targ (1976)"
+      },
+      {
+        "date": "1974",
+        "event": "Uri Geller tested at SRI",
+        "significance": "Controversial testing of metal-bending and telepathy claims",
+        "source": "Targ & Puthoff (1974), Nature"
+      },
+      {
+        "date": "1994",
+        "event": "Bem & Honorton meta-analysis published",
+        "significance": "Statistical evidence for Ganzfeld effect in Psychological Bulletin",
+        "source": "Bem & Honorton (1994)"
+      },
+      {
+        "date": "1995",
+        "event": "Stargate Project declassified",
+        "significance": "Public disclosure of 20+ year government remote viewing program",
+        "source": "CIA press release"
+      },
+      {
+        "date": "2011",
+        "event": "Bem's precognition paper published",
+        "significance": "Mainstream journal publishes evidence for precognition; replication crisis follows",
+        "source": "Bem, D.J. (2011), Journal of Personality and Social Psychology"
+      }
+    ],
+    "modern_era": "Contemporary research focuses on refined experimental protocols, meta-analyses, neuroscience correlates, and quantum consciousness theories. The field faces ongoing challenges with replication, publication bias, and theoretical frameworks. Some researchers pursue consciousness studies and anomalous cognition through mainstream cognitive science approaches."
+  },
+
+  "experiments": {
+    "notable_protocols": [
+      {
+        "name": "Rhine ESP Cards (Zener Cards)",
+        "researcher": "J.B. Rhine",
+        "institution": "Duke University",
+        "period": "1930s-1960s",
+        "description": "Participants guess symbols on hidden cards (circle, cross, waves, square, star)",
+        "results": "Some subjects scored significantly above chance (20%); later debates about methodology",
+        "status": "foundational"
+      },
+      {
+        "name": "Ganzfeld Experiments",
+        "researcher": "Charles Honorton et al.",
+        "institution": "Multiple institutions",
+        "period": "1970s-present",
+        "description": "Receiver in sensory isolation attempts to perceive target image viewed by sender",
+        "results": "Meta-analyses suggest hit rates ~32% vs. 25% chance; replication debates continue",
+        "status": "active"
+      },
+      {
+        "name": "Remote Viewing Protocols",
+        "researcher": "Ingo Swann, Russell Targ, Hal Puthoff",
+        "institution": "Stanford Research Institute",
+        "period": "1972-1995",
+        "description": "Structured protocols for perceiving distant or hidden targets using coordinates",
+        "results": "Some impressive operational successes claimed; overall hit rate debates",
+        "status": "disputed"
+      },
+      {
+        "name": "Random Number Generator (RNG) Studies",
+        "researcher": "Robert Jahn, Brenda Dunne",
+        "institution": "Princeton PEAR Lab",
+        "period": "1979-2007",
+        "description": "Participants attempt to mentally influence random number generators",
+        "results": "Small but statistically significant effects claimed over millions of trials",
+        "status": "disputed"
+      },
+      {
+        "name": "Presentiment Experiments",
+        "researcher": "Dean Radin, Dick Bierman",
+        "institution": "Multiple institutions",
+        "period": "1990s-present",
+        "description": "Physiological responses measured before randomly selected emotional stimuli",
+        "results": "Some studies show anticipatory responses; replication mixed",
+        "status": "active"
+      },
+      {
+        "name": "Dream ESP Studies",
+        "researcher": "Montague Ullman, Stanley Krippner",
+        "institution": "Maimonides Medical Center",
+        "period": "1960s-1970s",
+        "description": "Sleeping subjects dream about target images selected by sender",
+        "results": "Some significant results; not extensively replicated",
+        "status": "historical"
+      }
+    ],
+    "famous_cases": [
+      {
+        "name": "Edgar Cayce",
+        "period": "1901-1945",
+        "description": "The 'Sleeping Prophet' - medical clairvoyance and prophecy while in trance",
+        "evidence": "Thousands of documented readings; many anecdotal verifications",
+        "status": "historical"
+      },
+      {
+        "name": "Uri Geller",
+        "period": "1970s-present",
+        "description": "Metal bending and telepathy demonstrations; SRI testing",
+        "evidence": "Laboratory results disputed; many claimed exposures as magic tricks",
+        "status": "controversial"
+      },
+      {
+        "name": "Ingo Swann",
+        "period": "1970s-2013",
+        "description": "Remote viewing of Jupiter, development of Coordinate Remote Viewing",
+        "evidence": "SRI protocols; some verifications, some failures",
+        "status": "significant"
+      },
+      {
+        "name": "Joe McMoneagle",
+        "period": "1978-present",
+        "description": "Military remote viewer, claimed operational successes",
+        "evidence": "Government documentation; some verifiable hits",
+        "status": "noteworthy"
+      },
+      {
+        "name": "Pat Price",
+        "period": "1973-1975",
+        "description": "Former police officer; remote viewing of Soviet installations",
+        "evidence": "Declassified CIA documents with verified details",
+        "status": "significant"
+      }
+    ]
+  },
+
+  "evidence": {
+    "experimental": [
+      {
+        "type": "Statistical meta-analyses",
+        "description": "Combined results across many studies showing small but significant effects",
+        "status": "disputed",
+        "analysis": "Proponents cite consistent small effects; critics cite publication bias and methodological issues"
+      },
+      {
+        "type": "Laboratory protocols",
+        "description": "Controlled experiments under various paradigms (Ganzfeld, RNG, remote viewing)",
+        "status": "mixed",
+        "analysis": "Some positive results; replication remains contentious"
+      },
+      {
+        "type": "Government documentation",
+        "description": "Declassified CIA/DIA remote viewing program documents",
+        "status": "verified",
+        "analysis": "Programs existed; operational utility disputed"
+      }
+    ],
+    "anecdotal": [
+      {
+        "type": "Spontaneous cases",
+        "description": "Unrehearsed experiences of telepathy, precognition, or other psi in everyday life",
+        "status": "widespread",
+        "analysis": "Difficult to verify; may involve confirmation bias, coincidence"
+      },
+      {
+        "type": "Crisis apparitions",
+        "description": "Perceiving distant loved one at moment of death or crisis",
+        "status": "documented",
+        "analysis": "Collected by SPR; no controlled verification possible"
+      }
+    ],
+    "physiological": [
+      {
+        "type": "Brain imaging",
+        "description": "fMRI and EEG studies during claimed psi tasks",
+        "status": "preliminary",
+        "analysis": "Some correlational findings; no consensus on mechanisms"
+      },
+      {
+        "type": "Presentiment effects",
+        "description": "Skin conductance, heart rate changes before random emotional stimuli",
+        "status": "mixed",
+        "analysis": "Some replications; effect size small and disputed"
+      }
+    ]
+  },
+
+  "theories": {
+    "paranormal": [
+      {
+        "name": "Psi as Real Ability",
+        "description": "Psychic abilities are genuine mental capacities not yet understood by science",
+        "proponents": ["J.B. Rhine", "Dean Radin", "Rupert Sheldrake"],
+        "evidence_cited": [
+          "Meta-analytic results showing consistent effects",
+          "Laboratory successes under controlled conditions",
+          "Historical and cross-cultural prevalence"
+        ]
+      },
+      {
+        "name": "Quantum Consciousness",
+        "description": "Consciousness operates through quantum mechanical processes allowing non-local effects",
+        "proponents": ["Henry Stapp", "Dean Radin", "Roger Penrose (cautiously)"],
+        "evidence_cited": [
+          "Quantum entanglement analogies",
+          "Observer effects in physics",
+          "Consciousness as fundamental aspect of reality"
+        ]
+      },
+      {
+        "name": "Morphic Resonance",
+        "description": "Fields of memory and habit allow information transfer across space and time",
+        "proponents": ["Rupert Sheldrake"],
+        "evidence_cited": [
+          "Sense of being stared at experiments",
+          "Telephone telepathy studies",
+          "Animal telepathy observations"
+        ]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Information Processing Anomalies",
+        "description": "Apparent psi effects arise from unusual but normal information processing",
+        "proponents": ["Chris French", "Richard Wiseman"],
+        "evidence_cited": [
+          "Cognitive biases can mimic psi",
+          "Pattern recognition in noise",
+          "Memory reconstruction effects"
+        ]
+      },
+      {
+        "name": "Statistical Artifacts",
+        "description": "Positive results due to publication bias, optional stopping, p-hacking",
+        "proponents": ["James Alcock", "Ray Hyman"],
+        "evidence_cited": [
+          "File drawer problem",
+          "Questionable research practices",
+          "Failure of pre-registered replications"
+        ]
+      },
+      {
+        "name": "Sensory Leakage",
+        "description": "Subtle sensory cues provide information in supposedly controlled experiments",
+        "proponents": ["C.E.M. Hansel", "Susan Blackmore"],
+        "evidence_cited": [
+          "Uncontrolled variables in protocols",
+          "Fraud detection in historical cases",
+          "Improvement with stricter controls"
+        ]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Confirmation Bias & Selective Memory",
+        "description": "People remember hits and forget misses, creating illusion of psi",
+        "proponents": ["Michael Shermer", "James Randi"],
+        "evidence_cited": [
+          "Psychological studies of coincidence perception",
+          "Selective reporting in spontaneous cases",
+          "Availability heuristic effects"
+        ]
+      },
+      {
+        "name": "Cold Reading & Mentalism Techniques",
+        "description": "Professional techniques can simulate psychic abilities convincingly",
+        "proponents": ["James Randi", "Ray Hyman", "Derren Brown"],
+        "evidence_cited": [
+          "Magicians can duplicate all claimed effects",
+          "Analysis of medium techniques",
+          "Barnum effect and subjective validation"
+        ]
+      },
+      {
+        "name": "Fraud & Deception",
+        "description": "Many famous cases exposed as deliberate fraud",
+        "proponents": ["Harry Houdini", "Joe Nickell"],
+        "evidence_cited": [
+          "Caught frauds (e.g., Project Alpha)",
+          "Financial motivations",
+          "Inability to perform under proper controls"
+        ]
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Oracle traditions (Delphi, Dodona, etc.)",
+        "Shamanic journeying and vision quests",
+        "Biblical prophecy and divine revelation",
+        "Buddhist and Hindu siddhis (spiritual powers)",
+        "Chinese I Ching divination",
+        "Celtic second sight",
+        "African divination practices"
+      ],
+      "beliefs": "Nearly every culture recognizes special individuals with heightened intuition, prophetic ability, or healing powers. Often connected to spiritual development or divine favor."
+    },
+    "popular_culture": {
+      "literature": [
+        "\"The Men Who Stare at Goats\" by Jon Ronson (2004)",
+        "\"The Conscious Universe\" by Dean Radin (1997)",
+        "\"Entangled Minds\" by Dean Radin (2006)",
+        "\"Parapsychology: The Controversial Science\" by Richard Broughton (1991)"
+      ],
+      "film_tv": [
+        "The Men Who Stare at Goats (2009)",
+        "Third Eye Spies (2019)",
+        "Stranger Things (TV series, 2016-present)",
+        "The Dead Zone (1983)",
+        "The X-Files (TV series, 1993-2018)",
+        "Phenomenon (1996)"
+      ],
+      "other": [
+        "Psychic hotlines and readings",
+        "Crime-solving psychics",
+        "Sports betting and stock market predictions",
+        "Paranormal investigation shows"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Dr. J.B. Rhine",
+        "affiliation": "Duke University, Rhine Research Center",
+        "contribution": "Founded experimental parapsychology; ESP card experiments",
+        "period": "1927-1980"
+      },
+      {
+        "name": "Dr. Dean Radin",
+        "affiliation": "Institute of Noetic Sciences",
+        "contribution": "Meta-analyses, presentiment research, consciousness studies",
+        "period": "1980s-present"
+      },
+      {
+        "name": "Dr. Russell Targ",
+        "affiliation": "Stanford Research Institute",
+        "contribution": "Remote viewing research, government program development",
+        "period": "1972-1995"
+      },
+      {
+        "name": "Dr. Harold Puthoff",
+        "affiliation": "Stanford Research Institute",
+        "contribution": "Remote viewing protocols, Stargate Project co-director",
+        "period": "1972-1995"
+      },
+      {
+        "name": "Dr. Charles Honorton",
+        "affiliation": "Psychophysical Research Laboratories",
+        "contribution": "Ganzfeld methodology, meta-analyses",
+        "period": "1960s-1992"
+      },
+      {
+        "name": "Dr. Rupert Sheldrake",
+        "affiliation": "Independent researcher",
+        "contribution": "Morphic resonance theory, telephone telepathy research",
+        "period": "1980s-present"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Rhine Research Center",
+        "url": "https://www.rhine.org",
+        "focus": "Experimental parapsychology research and education"
+      },
+      {
+        "name": "Parapsychological Association",
+        "url": "https://www.parapsych.org",
+        "focus": "Professional organization, affiliated with AAAS since 1969"
+      },
+      {
+        "name": "Institute of Noetic Sciences",
+        "url": "https://noetic.org",
+        "focus": "Consciousness research, mind-matter interactions"
+      },
+      {
+        "name": "Society for Psychical Research (SPR)",
+        "url": "https://www.spr.ac.uk",
+        "focus": "Oldest psychical research organization (1882)"
+      }
+    ],
+    "ongoing_studies": "Current research includes: presentiment studies with pre-registration, Ganzfeld replications, quantum biology approaches, global consciousness monitoring, and neuroscientific investigation of meditative states and claimed psi experiences."
+  },
+
+  "methodology_issues": {
+    "replication_crisis": {
+      "description": "Many positive results fail to replicate in independent laboratories or pre-registered studies",
+      "examples": [
+        "Bem's precognition studies - mixed replication results",
+        "Ganzfeld hit rates vary significantly between laboratories",
+        "RNG effects disappear under stricter protocols"
+      ],
+      "debates": [
+        "Role of experimenter effects",
+        "Publication bias and file drawer problem",
+        "Decline effect over time",
+        "Need for pre-registration"
+      ]
+    },
+    "methodological_challenges": [
+      "Sensory leakage prevention",
+      "Randomization quality",
+      "Target selection procedures",
+      "Judging blind procedures",
+      "Statistical power and multiple comparisons",
+      "Fraud prevention"
+    ]
+  },
+
+  "sources": [
+    {
+      "id": "radin-1997",
+      "type": "book",
+      "title": "The Conscious Universe: The Scientific Truth of Psychic Phenomena",
+      "authors": ["Dean Radin"],
+      "publication": "HarperOne",
+      "date": "1997",
+      "isbn": "978-0062515025"
+    },
+    {
+      "id": "rhine-1934",
+      "type": "book",
+      "title": "Extra-Sensory Perception",
+      "authors": ["J.B. Rhine"],
+      "publication": "Boston Society for Psychic Research",
+      "date": "1934"
+    },
+    {
+      "id": "bem-honorton-1994",
+      "type": "paper",
+      "title": "Does Psi Exist? Replicable Evidence for an Anomalous Process of Information Transfer",
+      "authors": ["Daryl J. Bem", "Charles Honorton"],
+      "publication": "Psychological Bulletin",
+      "date": "1994",
+      "volume": "115",
+      "pages": "4-18"
+    },
+    {
+      "id": "cia-stargate",
+      "type": "document",
+      "title": "Declassified Stargate Program Documents",
+      "organization": "Central Intelligence Agency",
+      "date": "1995",
+      "url": "https://www.cia.gov/readingroom/collection/stargate"
+    }
+  ]
+}
